@@ -1,1 +1,2 @@
-Create a program of Sequelize with node.js
+Create a program of Sequelize using node.js.
+
