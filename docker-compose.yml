@@ -1,8 +1,13 @@
 version: '3.5'
 
 services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+
   postgres:
-    container_name: postgres_container
+    container_name: postgresContainer
     image: postgres
     environment:
       POSTGRES_USER: root
